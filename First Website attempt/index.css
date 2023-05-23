@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<script>
+function myFunction() {
+  var x = document.getElementById('myDIV');
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+}
+</script>
+<head>
+<link href="Stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo"><img src="img1.png" width="80" height="30" onclick="myFunction()"></a>
+  <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="class websites.html">Class Websites</a>
+  </div>
+</div>
+
+<div id="myDIV">
+<div id="mySidenav" class="sidenav">
+  <a href="index.html" id="about">Index</a>
+  <a href="about.html" id="about">About</a>
+  <a href="video.html" id="blog">Video</a>
+  <a href="#" id="projects">History</a>
+  <a href="#" id="contact">References</a>
+</div>
+</div>
+
+
+</body>
+</html>

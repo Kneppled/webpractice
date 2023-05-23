@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<script>
+function myFunction() {
+  var x = document.getElementById('myDIV');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+}
+</script>
+<head>
+<style>
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("giphy2.gif");
+}
+
+li {
+  color: red;
+  text-shadow: 1px 1px black;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+</style>
+<link href="Stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<div class="header">
+  <a href="#default" class="logo"><img src="images.png" width="30" height="30" onclick="myFunction()"></a>
+  <b h1>The Evolution of Youtube</b h1>
+  <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="class websites.html">Class Websites</a>
+  </div>
+</div>
+
+
+<div id="myDIV">
+<div id="mySidenav" class="sidenav">
+  <a href="index.html" id="index">Origin</a>
+  <a href="history.html" id="about">History</a>
+  <a href="services.html" id="blog">Features</a>
+  <a href="about.html" id="projects">Facts</a>
+  <a href="references.html" id="contact">Citations</a>
+</div>
+</div>
+<center>
+<div style="padding-top:100px">
+<h1>Citations</h1>
+<li>https://www.businessinsider.com/key-turning-points-history-of-youtube-2013-2#in-a-little-over-5-months-gangnam-style-hit-1-billion-views-in-december-2012-22</li>
+<li>https://medium.com/@obtaineudaimonia/how-youtube-started-719333720eb5</li>
+<li>https://www.thoughtco.com/who-invented-youtube-1992691</li>
+<li>https://www.quora.com/Where-are-YouTubes-founders-now</li>
+<li>https://www.alexa.com/topsites</li>
+<li>https://www.livetiles.nyc/100-fascinating-facts-youtube</li>
+</div>
+</center>
+</body>
+</html>
